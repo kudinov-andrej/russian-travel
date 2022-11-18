@@ -6,15 +6,18 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #E5E5E5;
     max-width: 1024px;
-    /*background-color: #2A2C2F;*/
     margin: auto;
     font-family: 'Inter', sans-serif;
+    
 
     
        
 }
 .page {
+    margin: 0;
+    padding: 0;
     max-width: 1024px;
     min-height: 100vh;
     background-color: #2A2C2F;
@@ -34,22 +37,25 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 28px 46px 48px 28px;
+    margin-bottom: 54px;
     
 }
 
 .header__logo {
+  margin: 0;
+  padding: 0;
+  margin-top: 28px;
+  margin-left: 48px;
   max-width: 176px;
   max-height: 52px;
 
 }
-/* сделать эффект при наведении*/
-.header__logo:hover {
-    
-}
+ 
 
 .header__link {
     margin: 0;
+    padding: 0;
+    margin-right: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,9 +63,10 @@ body {
     list-style-type: none;
 
 }
-/* сделать подчеркивание под RU*/
+
 .header__lang-link {
     margin: 0;
+    padding: 0;
     margin-left: 18px;
     color: #FFFFFF;
     text-decoration-line: none;
@@ -68,10 +75,14 @@ body {
     line-height: 28px;
     
 }
-.header__lang-link:hover {
-    text-decoration: underline;
-    text-decoration-color: blue;
+/* проверить БЭМ модификатора*/
+.header__lang-link_on {
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: white
 }
+
 .liad {
 display: flex;
 flex-direction: column;
@@ -152,10 +163,11 @@ align-items: center;
   list-style-type: none;
   margin-bottom: 92px;
 }
+
 .photo-grid {
     margin: 0;
     padding: 0;
-    margin: 0 48px 92px 48px;
+    margin: 0 48px 0 48px;
     max-width: 928px;
     display: grid;
     gap: 14px;
@@ -166,19 +178,22 @@ align-items: center;
 }
 .photo-grid__item {
   margin: 0;  
+  padding: 0;
   max-width: 100%;
-  max-height: 100%;
+  max-height: auto;
   object-fit: cover;
 }
 
 .plases {
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .plase {
     margin: 0;
     padding: 0;
-    margin: 0 48px 92px 48px;
+    margin: 0 48px 0 48px;
     max-width: 928px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); 
@@ -188,6 +203,7 @@ align-items: center;
 .plase__title {
   margin: 0;
   padding: 0;
+  margin-top: 80px;
   max-width: 100%;
   max-height: 100%;
   padding-bottom: 48px;
@@ -198,8 +214,10 @@ align-items: center;
 
 }
 .plase__image {
-  margin: 0;  
-  max-width: 440px;
+  margin: 0;
+  padding: 0; 
+  max-width: 100%;
+  height: auto; 
   object-fit: cover; 
  
 }
@@ -222,8 +240,10 @@ align-items: center;
     Letter-spacing: 2px;
     text-decoration: none;
     color: #FFFFFF;
+    
 
 }
+
 .website__link {
   margin: 0;
   padding: 0;
@@ -232,33 +252,117 @@ align-items: center;
   font-size: 18px;
   line-height: 22px; 
   color: #FFFFFF;
+  opacity: 1;
   
 }
+.website__link:hover {
+  opacity: 0.8;
+}
+
 .plase__paragraph {
     margin: 0;
     padding: 0;
     padding-bottom: 27px;
     margin-left: 32px;
-    max-width: 484px;
+    max-width: 100%;
     font-weight: 400;
     font-size: 18px;
     line-height: 29.34px;  
     grid-column: 2;
-    
-
-    /*grid-area: paragraph;*/
+  
 }
 .plase__paragraph:last-child{
     padding-bottom: 0;  
 }
 
+.cover {
+  margin-top: 92px;
+  max-width: 1024px;
+  background-image:url(./images/cover-trains.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.cover__overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  max-height: 640px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.3);
+  }
+  .cover__overlay:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+.cover__content {
 
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /*max-width: 560px;*/
+  z-index: 3;
+}
 
+.cover__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 195px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  align-self: center;
+  max-width: 560px;
+ 
+  
+  
+}
+.cover__subtitle {
+  margin: 0;
+  padding: 0;
+  margin-top: 32px;
+  margin-bottom: 195px;
+  align-self: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px; 
+  max-width: 360px;  
+}
 
+.footer {
+  margin: 0;
+  padding: 0;
+  margin-top: 92px;
+  margin-bottom: 24px;
+  margin-left: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 
+}
+.footer__links {
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 18px;
 
+}
+.footer__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #FFFFFF;
 
-
-
-
-/* grid-template-columns: minmax(440px, 460px) minmax(456px, 484px); возможно, для plase__image*/
+}
+.footer__avtor{
+margin: 0;
+padding: 0;
+margin-right: 48px;
+}
