@@ -1,9 +1,16 @@
 .body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    margin: auto;
-    background-color: #E5E5E5;
     max-width: 1280px;
+    min-height: 100vh;
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
     font-family: 'Inter', sans-serif;
   }
 
