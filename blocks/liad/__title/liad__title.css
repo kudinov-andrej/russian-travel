@@ -1,0 +1,27 @@
+.liad__title {
+    margin: 0 auto;
+    max-width: 720px;
+    font-weight: 900;
+    font-size: 96px;
+    word-break: break-all;
+    line-height: 100px;
+    text-align: center;
+  
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .liad__title {
+      margin: 0;
+      max-width: 720px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .liad__title {
+      max-width: 288px;
+      font-size: 40px;
+      line-height: 44px;
+  
+    }
+  }

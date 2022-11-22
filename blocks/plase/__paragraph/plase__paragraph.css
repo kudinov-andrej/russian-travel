@@ -1,0 +1,49 @@
+.plase__paragraph {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 26px;
+    padding-left: 40px;
+    max-width: max-content;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
+    grid-column: 2;
+  
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .plase__paragraph {
+      padding-left: 32px;
+      padding-bottom: 27px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .plase__paragraph {
+      padding-left: 28px;
+      padding-bottom: 25px;
+      font-size: 16px;
+      line-height: 26.08px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .plase__paragraph {
+      margin: 0;
+      padding: 0;
+      margin-left: 16px;
+      margin-right: 16px;
+      padding-bottom: 25px;
+      font-size: 16px;
+      line-height: 163%;
+  
+    }
+  }
+  
+  
+  .plase__paragraph:last-child {
+    padding-bottom: 0;
+  }
+  

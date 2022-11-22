@@ -1,0 +1,36 @@
+
+.plase__website {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 48px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .plase__website {
+      padding-left: 32px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .plase__website {
+      max-width: 352px;
+      padding-left: 28px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .plase__website {
+      align-self: flex-start;
+      margin-bottom: 32px;
+      padding-left: 14px;
+  
+    }
+  }
+  

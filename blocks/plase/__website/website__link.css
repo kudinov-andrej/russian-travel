@@ -1,0 +1,15 @@
+.website__link {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 1;
+  
+  }
+  
+  .website__link:hover {
+    opacity: 0.8;
+  }
+  
