@@ -9,8 +9,6 @@
   
   @media screen and (max-width: 1023px) {
     .plase__image {
-      margin: 0;
-      padding: 0;
       max-width: 340px;
   
     }
@@ -18,8 +16,6 @@
   
   @media screen and (max-width: 767px) {
     .plase__image {
-      margin: 0;
-      padding: 0;
       margin-bottom: 32px;
       max-width: max-content;
   

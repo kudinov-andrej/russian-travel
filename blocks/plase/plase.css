@@ -6,12 +6,20 @@
     grid-template-columns: 48.872% 51.271%;
   }
   
+
+  @media screen and (max-width: 1023px) {
+    .plase {
+      grid-template-columns: 47.222% 48.888%;
+    }
+  }
+
+
   @media screen and (max-width: 767px) {
     .plase {
       display: flex;
       flex-direction: column;
       max-width: 100vw;
       align-self: flex-start;
-      margin-top: 14px;
+      
     }
   }

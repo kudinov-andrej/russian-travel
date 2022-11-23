@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Russian-travel</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body class="body">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="логотип">
       <ul class="header__link">
-        <li><a class="header__lang-link header__lang-link_on" href="#" target="_blank">Ru</a></li>
+        <li><a class="header__lang-link header__lang-link_on" href="#" target="_self">Ru</a></li>
         <li><a class="header__lang-link" href="#" target="_blank">En</a></li>
       </ul>
     </header>
@@ -56,10 +55,10 @@
       <section class="plases">
         <article class="plase">
           <h2 class="plase__title"> Куршская коса</h2>
-          <nav class="plase__website">
-            <a class="plase__url-heading" href="http://park-kosa.ru" target="_blank">URL</a>
+          <div class="plase__website">
+            <p class="plase__url-heading">URL</p>
             <a class="plase__link" href="http://park-kosa.ru" target="_blank">http://park-kosa.ru</a>
-          </nav>
+          </div>
           <img class="plase__image" src="./images/place-kosa.jpg" alt="коса">
           <div class="plase__text">
             <p class="plase__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -77,12 +76,11 @@
         </article>
         <article class="plase">
           <h2 class="plase__title">Кольский</h2>
-          <nav class="plase__website">
-            <a class="plase__url-heading" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-              target="_blank">URL</a>
+          <div class="plase__website">
+            <p class="plase__url-heading">URL</p>
             <a class="plase__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank">National Geographic</a>
-          </nav>
+          </div>
           <img class="plase__image" src="./images/place-kolsky.jpg" alt="кольский">
           <div class="plase__text">
             <p class="plase__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
@@ -99,10 +97,10 @@
         </article>
         <article class="plase">
           <h2 class="plase__title">Алтай</h2>
-          <nav class="plase__website">
-            <a class="plase__url-heading" href="https://www.youtube.com/watch?v=7" target="_blank">URL</a>
-            <a class="plase__link" href="https://www.youtube.com/watch?v=7" target="_blank">YouTub</a>
-          </nav>
+          <div class="plase__website">
+            <p class="plase__url-heading">URL</p>
+            <a class="plase__link" href="https://www.youtube.com/watch?v=7" target="_blank">YouTube</a>
+          </div>
           <img class="plase__image" src="./images/place-altai.jpg" alt="Алтай">
           <div class="plase__text">
             <p class="plase__paragraph">Алтай — одно из красивейших мест в России.
@@ -119,10 +117,10 @@
         </article>
         <article class="plase">
           <h2 class="plase__title">Зимний Байкал</h2>
-          <nav class="plase__website">
-            <a class="plase__url-heading" href="https://vk.com/baikalmile" target="_blank">URL</a>
+          <div class="plase__website">
+            <p class="plase__url-heading">URL</p>
             <a class="plase__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
-          </nav>
+          </div>
           <img class="plase__image" src="./images/place-winter-baikal.jpg" alt="кольский">
           <div class="plase__text">
             <p class="plase__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -138,10 +136,10 @@
         </article>
         <article class="plase">
           <h2 class="plase__title">Карелия</h2>
-          <nav class="plase__website">
-            <a class="plase__url-heading" href="http://vodlozero.ru/" target="_blank">URL</a>
+          <div class="plase__website">
+            <p class="plase__url-heading">URL</p>
             <a class="plase__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
-          </nav>
+          </div>
           <img class="plase__image" src="./images/place-karelia.jpg" alt="кольский">
           <div class="plase__text">
             <p class="plase__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -154,28 +152,28 @@
           </div>
         </article>
       </section>
-      <div class="cover">
+      <section class="cover">
         <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <div class="cover__content">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
               электричках.
             </p>
           </div>
         </a>
-      </div>
-      <footer class="footer">
-        <nav>
-          <ul class="footer__links">
-            <li class=""><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-            <li class=""><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-            <li class=""><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-            <li class=""><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-            <li class=""><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-          </ul>
-        </nav>
-        <p class="footer__avtor">&#xa9;2022 Кудинов Андрей</p>
-      </footer>
+      </section>
     </main>
+    <footer class="footer">
+      <nav>
+        <ul class="footer__links">
+          <li class=""><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class=""><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class=""><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class=""><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class=""><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__avtor">&#xa9;2022 Кудинов Андрей</p>
+    </footer>
   </body>
 </html>

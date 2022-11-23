@@ -16,17 +16,15 @@
   
   @media screen and (max-width: 1023px) {
     .plases {
-      margin: 0 auto;
       max-width: 720px;
-      margin-top: 0;
     }
   }
   
   @media screen and (max-width: 767px) {
     .plases {
-      margin: 0 auto;
+      padding-top: 14px;
       max-width: 768px;
-      margin-top: 0;
+      margin-bottom: 66px;
     }
   }
   
