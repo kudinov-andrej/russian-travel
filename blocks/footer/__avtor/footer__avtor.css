@@ -7,10 +7,15 @@
   margin-right: 48px;
 }
 
+@media screen and (max-width: 1023px) {
+  .footer__avtor {
+    margin-right: 24px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer__avtor {
     margin: 0;
-    margin-right: 16px;
     margin-top: 48px;
     line-height: 14px;
   }

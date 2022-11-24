@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     padding-bottom: 26px;
-    padding-left: 40px;
     max-width: max-content;
     font-weight: 400;
     font-size: 18px;
@@ -13,7 +12,7 @@
   
   @media screen and (max-width: 1279px) {
     .plase__paragraph {
-      padding-left: 32px;
+      column-gap: 32px;
       padding-bottom: 27px;
   
     }
@@ -21,7 +20,6 @@
   
   @media screen and (max-width: 1023px) {
     .plase__paragraph {
-      padding-left: 28px;
       padding-bottom: 25px;
       font-size: 16px;
       line-height: 26.08px;
